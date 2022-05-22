@@ -1,0 +1,22 @@
+.ImagesBox {
+    min-height: 400px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+
+}
+.iconButton{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: #5F29CC;
+}
+@media screen and (max-width: 1000px) {
+    .ImagesBox {
+    }
+    .iconButton{
+    }
+}
+
+  

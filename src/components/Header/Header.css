@@ -1,0 +1,161 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.logoGrid {
+    display: flex;
+}
+.buttonsGrid {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.buttonsGrid .whiteButton {
+    transition-duration: 0.5s;
+    cursor: pointer;
+    color: white;
+    padding: 10px;
+    border-width: 0;
+    font-size: large;
+    background-color: transparent;
+}
+.buttonsGrid .whiteButton:hover {
+    cursor: pointer;
+    color: #5F29CC;
+    padding: 10px;
+    border-width: 0;
+    font-size: large;
+    background-color: transparent;
+}
+.buttonsGrid .loginButton {
+    transition-duration: 0.35s;
+    cursor: pointer;
+    color: white;
+    border:1px solid;
+    border-color: white;
+    border-radius: 30px;
+    padding: 10px;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    background-color: transparent;
+    border-bottom-color: white;
+}
+.buttonsGrid .loginButton:hover {
+    transition-duration: 0.35s;
+    cursor: pointer;
+    color: #5F29CC;
+    border:1px solid;
+    border-color: #5F29CC;
+    border-radius: 30px;
+    padding: 10px;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    background-color: transparent;
+}
+.buttonsGrid .purpleButton {
+    transition-duration: 0.35s;
+    cursor: pointer;
+    color: white;
+    padding: 10px;
+    background-color: #5F29CC;
+    border:0;
+    border-color: white;
+    border-radius: 30px;
+    padding: 10px;
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
+.buttonsGrid .purpleButton:hover {
+    transition-duration: 0.35s;
+    cursor: pointer;
+    color: #5F29CC;
+    background-color: white;
+    border:1px solid;
+    border-color: #5F29CC;
+    border-radius: 30px;
+    padding: 10px;
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
+
+@media screen and (max-width: 900px) {
+    .header {
+    }
+    .logoGrid {
+        display: flex;
+    }
+    .buttonsGrid {
+        display: flex;
+        align-items: center;
+    }
+    .buttonsGrid .whiteButton {
+        transition-duration: 0.5s;
+        cursor: pointer;
+        color: white;
+        padding: 10px;
+        border-width: 0;
+        font-size: large;
+        background-color: transparent;
+    }
+    .buttonsGrid .whiteButton:hover {
+         cursor: pointer;
+        color: #5F29CC;
+        padding: 10px;
+        border-width: 0;
+        font-size: large;
+        background-color: transparent; 
+    }
+    .buttonsGrid .loginButton {
+         transition-duration: 0.35s;
+        cursor: pointer;
+        color: white;
+        border:1px solid;
+        border-color: white;
+        border-radius: 30px;
+        padding: 10px;
+        padding-left: 2vw;
+        padding-right: 2vw;
+        background-color: transparent;
+        border-bottom-color: white; 
+    }
+    .buttonsGrid .loginButton:hover {
+         transition-duration: 0.35s;
+        cursor: pointer;
+        color: #5F29CC;
+        border:1px solid;
+        border-color: #5F29CC;
+        border-radius: 30px;
+        padding: 10px;
+        padding-left: 2vw;
+        padding-right: 2vw;
+        background-color: transparent; 
+    }
+    .buttonsGrid .purpleButton {
+         transition-duration: 0.35s;
+        cursor: pointer;
+        color: white;
+        padding: 10px;
+        background-color: #5F29CC;
+        border:0;
+        border-color: white;
+        border-radius: 30px;
+        padding: 10px;
+        padding-left: 2vw;
+        padding-right: 2vw; 
+    }
+    .buttonsGrid .purpleButton:hover {
+         transition-duration: 0.35s;
+        cursor: pointer;
+        color: #5F29CC;
+        padding: 10px;
+        background-color: white;
+        border:1px solid;
+        border-color: #5F29CC;
+        border-radius: 30px;
+        padding-left: 2vw;
+        padding-right: 2vw; 
+    }
+}
+
+  
